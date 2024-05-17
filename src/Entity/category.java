@@ -1,3 +1,5 @@
+package Entity;
+
 import java.util.ArrayList;
 
 public class category {
@@ -6,21 +8,18 @@ public class category {
     private String name;
     private ArrayList<item> products;
 
-
-    // Parameter constructor
-    public category(String name, ArrayList<item> products) {
+    // Parameterized constructor
+    public category(String name) {
         this.name = name;
-        this.products = products;
+        this.products = new ArrayList<>(); // Initialize the products list
     }
-
 
     // Empty constructor
     public category() {
+        this.products = new ArrayList<>(); // Initialize the products list
     }
 
-
-    // Getter & setter
-
+    // Getter & setter methods
     public String getName() {
         return name;
     }

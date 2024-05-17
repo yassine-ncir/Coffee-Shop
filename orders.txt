@@ -1,0 +1,1 @@
+, Orders: [american, lavaza, alongee], Total Price: 5700.0, Date: null
